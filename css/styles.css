@@ -29,7 +29,8 @@ body {
   color: var(--color-brand);
   font-weight: 700;
   font-size: 26px;
-  line-height: 1.17;
+  line-height: normal;
+  /* line-height: 1.17; */
   letter-spacing: 0.78px;
 }
 .logo .header-accent {
@@ -63,7 +64,8 @@ body {
 .footer-contact-link:focus,
 .footer-contact-link:hover,
 .address_link:hover,
-.address_link:focus
+.address_link:focus,
+.header-link.current
 {
   color: var(--color-brand);
 }
@@ -127,7 +129,8 @@ body {
 .advantage-title {
   color: var(--color-primary);
   font-weight: 700;
-  line-height: 1.17;
+  /* line-height: 1.17; */
+  line-height: normal;
   letter-spacing: 0.42px;
   text-transform: uppercase;
   margin: 0px;
@@ -143,7 +146,8 @@ body {
   text-align: center;
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.17;
+  /* line-height: 1.17; */
+  line-height: normal;
   letter-spacing: 1.08px;
   margin-top: 94px;
 }
@@ -159,7 +163,8 @@ body {
   text-align: center;
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.17;
+  /* line-height: 1.17; */
+  line-height: normal;
   letter-spacing: 1.08px;
   padding-top: 94px;
 }
@@ -187,7 +192,8 @@ body {
 .team-member-name {
   font-size: 16px;
   font-weight: 500;
-  line-height: 1.19;
+  /* line-height: 1.19; */
+  line-height: normal;
   letter-spacing: 0.48px;
   margin-top: 30px;
   margin-bottom: 0px;
@@ -195,7 +201,8 @@ body {
 .team-member-pose {
   color: var(--color-secondary);
   font-size: 16px;
-  line-height: 1.19;
+  /* line-height: 1.19; */
+  line-height: normal;
   letter-spacing: 0.48px;
   margin-top: 10px;
 }
@@ -230,8 +237,8 @@ body {
   text-align: center;
   font-family: Roboto;
   font-size: 16px;
-  font-weight: 500;
-  line-height: 1.625%;
+  font-weight: 500; 
+  line-height: 1.625;
   letter-spacing: 0.48px;
   border-radius: 4px;
   background-color: var(--color-bg-team);
