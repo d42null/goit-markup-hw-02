@@ -129,6 +129,7 @@ body {
 .advantage-title {
   color: var(--color-primary);
   font-weight: 700;
+  font-size: 14px;
   /* line-height: 1.17; */
   line-height: normal;
   letter-spacing: 0.42px;
